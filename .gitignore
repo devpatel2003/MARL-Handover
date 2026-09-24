@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# results / logs (keep dir via .gitkeep, ignore contents)
+results/*
+!results/.gitkeep
+wandb/
+*.log
+
+.DS_Store
